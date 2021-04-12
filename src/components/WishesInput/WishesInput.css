@@ -1,0 +1,25 @@
+.wrapper-input {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.wrapper-input input {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 0.5px solid rgb(97, 94, 94);
+    outline: none;
+}
+.input-form {
+    margin-top: 50px;
+}
+.wrapper-input button {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,22 @@
+.wrapper-item {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+}
+.functional-buttons > button {
+    margin: 5px;
+    padding: 9px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.edit-button {
+    background-color: rgb(34, 184, 34);
+}
+
+.delete-button {
+    background-color: rgb(200, 69, 69);
+}

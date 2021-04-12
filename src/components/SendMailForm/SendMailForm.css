@@ -1,0 +1,28 @@
+.wrapper form {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40%;
+    background-color: rgb(156, 156, 199);
+
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.wrapper form h3 {
+    color: white;
+}
+.wrapper input,
+.wrapper button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+@media (max-width: 732px) {
+    .wrapper form {
+        width: 90%;
+    }
+}

@@ -1,0 +1,15 @@
+.not-found-wrapper {
+    width: 50%;
+    height: 50vh;
+    margin: 100px auto;
+    border-radius: 5px;
+    background-color: #515a7a;
+    padding-top: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.not-found-wrapper h1 {
+    margin: 50px;
+}
